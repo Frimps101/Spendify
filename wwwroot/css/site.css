@@ -109,13 +109,26 @@
 
 .cards{
     display: flex;
+    justify-content: center;
     margin-top: 5rem;
+    gap: 20px;
 }
 
 .card-img{
-    background: pink;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
+}
+
+.card-img1{
+    background: #fec8c1;
+}
+
+.card-img2 {
+    background: #83d0c9;
+}
+
+.card-img3 {
+    background: #faebd7;
 }
 
 .card-img img{
