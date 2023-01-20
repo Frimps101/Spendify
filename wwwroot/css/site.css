@@ -1,0 +1,123 @@
+/*html {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}*/
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+:root {
+    --grey: #999999;
+    --sonic-silver: #787878;
+    --white: #fff;
+    --gblack: #202124;
+
+    --border-radius-md: 10px;
+    --border-radius-sm: 5px;
+    --transition-timing: 0.2s ease;
+}
+
+    /*html {
+  position: relative;
+  min-height: 100%;
+}*/
+
+    body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper{
+    padding: 0 0;
+}
+
+/* Header */
+
+
+
+.top-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.header-social-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.header-social-container .social-link {
+/*    padding: 5px;*/
+    border-radius: var(--border-radius-sm);
+    color: var(--sonic-silver);
+    transition: var(--transition-timing);
+}
+
+.header-social-container .social-link i{
+    width: 50%;
+}
+
+.header-social-container .social-link:hover {
+    color: var(--gblack);
+}
+
+/* Top Dropdown*/
+.header-top-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-top-actions select {
+    border: none;
+    display: block;
+    min-width: 80px;
+    padding: 5px 0;
+    font: inherit;
+    color: var(--sonic-silver);
+    font-size: var(--fs-8);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: var(--transition-timing);
+}
+
+/*Hero*/
+.hero{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.hero img {
+    width: 640px;
+    height: 550px;
+}
+
+.hero-left{
+    flex-basis: 1;  
+}
+
+.hero-right {
+    flex-basis: 1;
+}
+
+.cards{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.card-img{
+    background: pink;
+    width: 500px;
+    height: 500px;
+}
+
+.card-img img{
+    width: 100%;
+}
